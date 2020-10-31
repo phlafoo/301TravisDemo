@@ -63,7 +63,7 @@ public class CityList {
 
         for (City c : cities) {
             if (c.compareTo(city) == 0){
-                cities.remove(c);
+                //cities.remove(c);
                 break;
             }
         }
